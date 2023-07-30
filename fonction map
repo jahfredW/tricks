@@ -1,0 +1,7 @@
+// permet d'effectuer des opérations dans un array sans utiliser de boucles 
+
+let tab = [1,2,3,4]
+
+// récupère chaque élément de tab et les multiplie par deux 
+let tabx2 = tab.map( number => number *2);
+
