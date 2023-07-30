@@ -1,0 +1,7 @@
+// fonction qui permet notamment de filtrer un array pour obtenir des éléments uniques : 
+
+let tab = [1, 4, 5, 1, 2, 3]
+
+let new_tab = tab.reduce( ( acc, currentValue) => {
+       return acc.includes(currentValue) ? acc : (acc.push(currentValue), acc) 
+}, []) 
