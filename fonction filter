@@ -1,0 +1,26 @@
+// fonction filter : 
+
+
+let tab2 = [1,4,2,4,9,5]
+
+// renvoie un array en excluant les nombres de valeur 4 
+const filter_array = (tab) => {
+  return tab.filter( nummber => number != 4)
+}
+
+
+let filteredTab = tab2.filter( number => number != 4);
+
+console.log(filteredTab);
+
+
+// renvoie un array de chiffres impaires 
+const moduloArray = (tab) => {
+    return tab.filter( number => number % 2 != 0)
+}
+
+// renvoie un array de chiffres impairs multipliés par deux 
+const moduloArray = (tab) => {
+    return tab.filter( number => number % 2 != 0).map( number => number * 2)
+}
+
