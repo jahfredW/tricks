@@ -1,0 +1,9 @@
+const data = { co: 196.93, no: 0.66, no2: 2.29, o3: 52.21, so2: 1.67 };
+
+Object.entries(data).map(([key, value]) => {
+  console.log(key); // Affiche les clés de l'objet (co, no, no2, o3, so2)
+  console.log(value); // Affiche les valeurs correspondantes (196.93, 0.66, 2.29, 52.21, 1.67)
+});
+
+Oui, à partir de la spécification ECMAScript 2017, vous pouvez utiliser la méthode Object.entries() pour itérer à la fois sur 
+les clés et les valeurs d'un objet. Cette méthode retourne un tableau de paires [clé, valeur] pour chaque propriété de l'objet. Ensuite, vous pouvez utiliser map pour itérer sur ce tableau de paires.
