@@ -1,0 +1,9 @@
+const data = { co: 196.93, no: 0.66, no2: 2.29, o3: 52.21, so2: 1.67 };
+
+Object.keys(data).map((key) => {
+  console.log(key); // Affiche les clés du l'objet (co, no, no2, o3, so2)
+  console.log(data[key]); // Affiche les valeurs correspondantes (196.93, 0.66, 2.29, 52.21, 1.67)
+});
+
+Dans cet exemple, nous utilisons Object.keys(data) pour obtenir un tableau contenant les clés de l'objet data. 
+Ensuite, nous utilisons map pour itérer sur ce tableau de clés. Pour chaque clé, nous accédons à la valeur correspondante dans l'objet en utilisant data[key], où key est la clé en cours d'itération.
